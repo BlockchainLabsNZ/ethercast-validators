@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "lib": [
+      "es2015"
+    ],
+    "outDir": "build"
+  },
+  "include": [
+    "src"
+  ]
+}

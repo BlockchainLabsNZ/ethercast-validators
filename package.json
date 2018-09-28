@@ -1,0 +1,36 @@
+{
+  "name": "@ethercast/validators",
+  "version": "1.0.0",
+  "description": "validate models vended by @ethercast/model",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register test/**/*.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ethercast/validators.git"
+  },
+  "keywords": [
+    "validate"
+  ],
+  "author": "Moody Salem <moody@ethercast.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ethercast/validators/issues"
+  },
+  "homepage": "https://github.com/Ethercast/validators#readme",
+  "dependencies": {
+    "@ethercast/model": "^3.0.2",
+    "ajv": "^6.5.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.5",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.11.2",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
+  }
+}
